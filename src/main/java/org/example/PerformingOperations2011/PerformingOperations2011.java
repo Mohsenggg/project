@@ -19,6 +19,7 @@ public class PerformingOperations2011 {
         int x = 0;
         String[] operations = new String[]{"--X", "X++", "X++"};
 
+//        there is a comment
         for (String operation : operations) {
             if (operation.charAt(1) == '-') x--;
             else x++;
